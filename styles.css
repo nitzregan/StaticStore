@@ -1,0 +1,109 @@
+body{
+    background-image:url("https://c.pxhere.com/photos/90/ef/paper_old_texture_parchment_background_antique_out_of_date_structure-1057404.jpg!d");
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin:0;
+}
+
+ 
+#logo{
+border-radius: 100%;
+height: 70px;
+width: 70px;
+}
+
+header{
+    padding: 70px;
+    background-image:url("https://cdn.dribbble.com/users/125679/screenshots/3520746/spectra-specs.jpg");
+    height: 70px;
+    opacity: 0.7;
+    color: white;
+}
+
+.sidebar {
+    width: 238px;
+    height: 650px;
+    float: left;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    background-color: #E6E2D1;
+    margin: 1.5em 3.0em 0 1.5em;
+    padding: 1.7em 2.0em 0.5em 1.7em;
+    box-shadow: 1px 1px 5px #777
+   }
+
+.sidebar img{
+    width:200px;
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.main {
+    background-color: #E6E2D1;
+    margin: 0 0 2.0em;
+    padding: 1.5em  0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+
+   }
+
+.panel{
+    /* float: right; */
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 1.25em 0.5em;
+    padding: 1.0em;
+    background-color: #E6E2D1;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+    color: #690932;
+    text-align: center;
+    box-shadow: 1px 1px 5px #777
+   }
+
+a{
+    color: #690932;
+    font-size: 20pt;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover{
+    color: #FF3390;
+    text-decoration: none;
+}
+
+.panel img.shop {
+    width: 100%;
+    height: 75%;
+   }
+
+/* .sidebar {
+    width: 238px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #E6E2D1;
+    margin: 1.5em 3.0em 0 1.5em;
+    padding: 1.7em 2.0em 0.5em 1.7em;
+   } */
+
+footer{
+       padding:25px;
+       background-color: #690932;
+       height: 25px;
+       margin-bottom: 0;
+       font-size: 10pt;
+       text-align: right;
+       color: white;
+       float: bottom;
+       position: relative;
+       
+   }
